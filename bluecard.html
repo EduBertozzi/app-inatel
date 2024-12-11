@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="mainPage">
+        <header>
+            <nav>
+                <div class="menu">
+                    <button class="menu-btn">&#9776;</button>
+                </div>
+                <div class="calendar">
+                    <button class="calendar-btn">&#128197;</button>
+                </div>
+                <div class="profile">
+                    <button class="profile-btn">&#128100;</button>
+                </div>
+            </nav>
+        </header>
+    
+        <main>
+            <div class="greeting">
+                <h1>Olá, <span class="highlight">Eduardo!</span></h1>
+                <p>Não se esqueça de recarregar seu <a href="#" id="bluecard-link" class="bluecard">BlueCard</a>.</p>
+            </div>
+
+            <section class="classes">
+                <h2>AULAS</h2>
+                <div class="class-item">
+                    <p>FO2 - C • I-11 • 17:30</p>
+                    <a href="#">notas</a> • <a href="#">frequência</a>
+                </div>
+                <div class="class-item">
+                    <p>MO4 - A • I-11 • 19:30</p>
+                    <a href="#">notas</a> • <a href="#">frequência</a>
+                </div>
+            </section>
+
+            <section class="exams">
+                <h2>PROVAS</h2>
+                <div class="exam-item">
+                    <p>21/10</p>
+                    <p>MO4 - A • I-11 • 19:30</p>
+                    <a href="#">conteúdo</a> • <a href="#">notas</a>
+                </div>
+                <div class="exam-item">
+                    <p>29/10</p>
+                    <p>SO5 - B • I-20 • 17:30</p>
+                    <a href="#">conteúdo</a> • <a href="#">notas</a>
+                </div>
+                <div class="exam-item">
+                    <p>07/11</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-icons">
+                <a href="#"><img src="home-icon.png" alt="Home"></a>
+                <a href="#"><img src="search-icon.png" alt="Search"></a>
+                <a href="#"><img src="card-icon.png" alt="Card"></a>
+                <a href="#"><img src="settings-icon.png" alt="Settings"></a>
+            </div>
+        </footer>
+    </div>
+
+    <div class="container" id="blueCardPage" style="display: none;">
+        <header>
+            <nav>
+                <div class="menu">
+                    <button class="menu-btn">&#9776;</button>
+                </div>
+                <div class="calendar">
+                    <button class="calendar-btn">&#128197;</button>
+                </div>
+                <div class="profile">
+                    <button class="profile-btn">&#128100;</button>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="bluecard-section">
+                <h2>BLUECARD</h2>
+                <div class="balance">
+                    <p>Saldo em conta</p>
+                    <h3>R$ 10,89</h3>
+                    <button class="deposit-btn">DEPOSITAR DINHEIRO</button>
+                </div>
+
+                <div class="bluecard-icons">
+                    <div class="icon-item">
+                        <img src="wallet-icon.png" alt="Carteira">
+                        <p>Carteira</p>
+                    </div>
+                    <div class="icon-item">
+                        <img src="virtual-card-icon.png" alt="Cartão Virtual">
+                        <p>Cartão Virtual</p>
+                    </div>
+                    <div class="icon-item">
+                        <img src="prizes-icon.png" alt="Prêmios">
+                        <p>Prêmios</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="statement">
+                <h2>EXTRATO</h2>
+                <div class="transaction">
+                    <p>19:11</p>
+                    <p>Pagamento - R$ 7,50</p>
+                    <small>Compra aprovada na cantina.</small>
+                </div>
+                <div class="transaction">
+                    <p>18:59</p>
+                    <p>Recarga + R$ 15,00</p>
+                    <small>Recarga recebida.</small>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-icons">
+                <a href="#" id="home-link"><img src="home-icon.png" alt="Home"></a>
+                <a href="#"><img src="search-icon.png" alt="Search"></a>
+                <a href="#"><img src="card-icon.png" alt="Card"></a>
+                <a href="#"><img src="settings-icon.png" alt="Settings"></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
