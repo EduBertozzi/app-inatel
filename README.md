@@ -1,0 +1,1 @@
+Projeto onde desenvolvi a interface de um aplicativo para o Inatel, com a funcionalidade "BlueCard". Com esse cartão, é possível fazer diversas coisas no campus, como reservar um livro, comprar um salgado na cantina, ganhar bônus, descontos e, além disso, 5% de todas as compras feitas/recebidas do aplicativo são destinados à faculdade.
